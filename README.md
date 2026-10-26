@@ -247,8 +247,7 @@ API requests have a timeout, and the MongoDB connection is checked using `ping`.
 
 Errors caught by the script are displayed in the terminal. A `finally` block closes the MongoDB client when processing finishes.
 
-## What I learned
-
+## What I learnt
 This project helped me apply the extract, transform and load process in Python.
 
 I practised retrieving paginated API data, linking MongoDB documents using ObjectIds and checking references before and after loading.
