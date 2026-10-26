@@ -254,11 +254,3 @@ This project helped me apply the extract, transform and load process in Python.
 I practised retrieving paginated API data, linking MongoDB documents using ObjectIds and checking references before and after loading.
 
 Writing the tests also helped me understand how mocking lets me test my code separately from the external API and database.
-
-## Possible improvements
-
-- Add a test covering multiple API pages
-- Add retry logic for temporary request failures
-- Automatically check the final collection count
-- Add a unique index on starship URLs to enforce uniqueness
-- Explore the optional relational SQL extension
